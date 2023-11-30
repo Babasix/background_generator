@@ -11,6 +11,7 @@ const secondColorElt = document.getElementById('secondColor');
 const bodyElt = document.querySelector('body');
 console.log(bodyElt);
 
+
 firstColorElt.addEventListener('input', function(){
     //console.log(firstColorElt.value);
     bodyElt.style = "background : linear-gradient(to left, "+firstColorElt.value+", "+secondColorElt.value+")";
